@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Osztály kirándulás (Szeged)</title>
+</head>
+<body>
+    <h1>Unfeledhetetlen nap a napfény városában: Szegedi osztálykirándulás</h1>
+        <p>A 10.B osztály május végén útra kelt, hogy felfedezze Csongrád-Csanád vármegye csodás székhelyét. A korai indulás ellenére a társaság rendkívül lelkesen és izgatottan érkezett meg a Tisza-parti metropoliszba, ahol a kultúra és a szórakozás tökéletes egyensúlyát élvezhettük.</p>
+
+    <h2>A Dóm tér és a belváros felfedezés</h2>
+    <p>Első megállónk a lenyűgöző Szegedi Dóm volt, amelynek tornyaiból páratlan kilátás nyílt az egész városra. A közös séta során bejártuk a Kárász utcát, megcsodáltuk a gyönyörű szecessziós épületeket, és természetesen nem maradhatott el a híres szegedi fagylaltok feltérképezése sem.</p>
+
+    <h2>Múzeumi élmények és a Tisza-part</h2>
+    <p>A Szegedi Dóm Múzeum és a Móra Ferenc Múzeum interaktív kiállításai után a Tisza-part felé vettük az irányt. A vízparti hűsölés és a közös beszélgetések adták a nap legfelszabadultabb pillanatait, amit egy felejthetetlen közös ebéd koronázott meg.</p>
+    <p>
+    <blockquote><i>"Ritkán látni ennyire összetartó és kíváncsi csapatot; a diákok nemcsak az élményeket, hanem egymást is még jobban megismerték ezen a napon."</i></blockquote> 
+
+    </p>
+    programok:
+    <ol>
+        <li>Utazás Szegedre </li>
+        <li>Dóm tér és a Fogadalmi templom</li>
+        <li>Móra Ferenc Múzeum, és alatta két alpont: állandó kiállítás, időszaki kiállítás</li>
+        <li>Ebéd a belvárosban</li>
+        <li>Hazautazás</li>
+    </ol>
+    <ul>
+        <li>Személyi igazolvány és diákigazolvány (az utazáshoz és a kedvezményes múzeumi belépőkhöz)</li>
+        <li>Kényelmes cipő (a városon belüli gyalogos sétákhoz)</li>
+        <li>Innivaló és némi útravaló (a napközbeni hidratáláshoz és energiapótláshoz)</li>
+        <li>Esőkabát vagy kisméretű esernyő (az esetleges szeszélyes időjárás esetére)</li>
+    </ul>
+    <ul>
+        <li>Gyülekezö: 6:30, az iskola udvara</li>
+        <li>Indulás: 6:45</li>
+        <li>Kísérő tanár: Kovács Anna, anna.kovacs@iskola.hu</li>
+    </ul>
+    <ul>
+        <li><a href="#urlap"></a>jelentkezés</li>
+        <li><a href="mailto:anna.kovacs@iskola.hu">Email</a></li>
+        <li><a href="https://hu.wikipedia.org/wiki/Szeged">Wiki</a></li>
+    </ul>
+    <img src="images.jpg" alt="Kép szegedről">
+    <table>
+    <thead>
+        <tr>
+           <th>Tétel</th> 
+           <th>Ár</th>
+        </tr>
+     </thead>  
+     <tbody>
+        <tr>
+            <td>Utazás</td>
+            <td>2500 Ft</td>
+        </tr>
+        <tr>
+            <td>Belépő</td>
+            <td>1800 Ft</td>
+        </tr>
+        <tr>
+            <td>Ebéd</td>
+            <td>2200 Ft</td>
+        </tr>
+        <tr>
+            <td>Összesen: 6500 Ft</td>
+            <td colspan="2"></td>
+        </tr>
+    </tbody> 
+    </table>
+<form action="https://httpbin.org/post" method="post">
+
+  <fieldset>
+    <legend>Személyes adatok</legend>
+    <p>
+      <label for="nev">Név *</label><br>
+      <input type="text" id="nev" name="nev" required
+             placeholder="Kovács Anna">
+    </p>
+    <p>
+      <label for="email">E-mail*</label><br>
+      <input type="email" id="email" name="email"
+             placeholder="example@gmail.com" required>
+    </p>
+    <p>
+      <label for="tel">Telefon *</label><br>
+      <input type="tel" id="tel" name="telefon"
+             placeholder="+36 30 123 4567" required>
+    </p>
+    <p>
+      <label for="ember">Hány fővel jössz?</label><br>
+      <input type="number" id="ember" name="ember" min="1" max="4"
+             placeholder="1-4" required >
+    </p>
+  </fieldset>
+
+  <fieldset>
+    <legend>Melyik buszra ülsz?</legend>
+        <p>
+      <input type="radio" id="m1" name="busz"
+             value="1" checked>
+      <label for="m1">1.busz</label>
+      <input type="radio" id="m2" name="busz"
+             value="2">
+      <label for="m2">2.busz</label>  
+    </p>
+  </fieldset>
+    <fieldset>
+    <legend>Egyéb</legend>
+        <p>
+        <label for="fajta">Étel*</label>
+        <select id="busz" name="busz" required>
+            <option value="">-- válassz --</option>
+            <option value="húsos menü">húsos menü</option>
+            <option value="vegetáriánus menü">vegetáriánus menü</option>
+            <option value="hozok magamnak ételt">hozok magamnak ételt</option>
+        </select>
+        </p>
+
+       <p>
+      <input type="checkbox" id="c1" name="extra"
+             value="1">
+      <label for="m1">1.busz</label>
+      <input type="checkbox" id="c2" name="extra"
+             value="2">
+      <label for="m2">2.busz</label>  
+    </p>
+    </fieldset>
+
+
+
+
+
+</form>
+    
+</body>
+</html>
